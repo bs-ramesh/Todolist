@@ -1,0 +1,11 @@
+DDL Commands
+
+CREATE TABLE todolist (
+        completed boolean not null,
+        due_date date,
+        id bigint not null,
+        description varchar(255),
+        title varchar(255),
+        primary key (id)
+    )
+
